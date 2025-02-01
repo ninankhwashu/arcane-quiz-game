@@ -2056,7 +2056,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let message;
     if (score === 20) {
-      message = `🔥 Congratulations, You're An Arcane Legend!!! 🔥`;
+      message = `🔥 Congratulations, You Stand Among Legends!!! 🔥`;
     } else if (score >= 15) {
       message = `You know ${selectedNation} better than anyone!`;
     } else {

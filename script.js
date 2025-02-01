@@ -1285,7 +1285,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ],
     Ekko: [
       {
-        question: "What is Ekko’s nickname in Zaun?",
+        question: "What is Ekko’s nickname?",
         answers: [
           "A. The Timekeeper",
           "B. The Boy Who Shattered Time",
@@ -1304,7 +1304,7 @@ document.addEventListener("DOMContentLoaded", () => {
       {
         question: "Who does Ekko look up to the most in Season 1?",
         answers: ["A. Vi", "B. Vander", "C. Mylo", "D. Silco"],
-        correct: 1,
+        correct: 0,
         background: "media/ekkobg.jpg",
       },
       {
@@ -1322,7 +1322,7 @@ document.addEventListener("DOMContentLoaded", () => {
       {
         question: "What is Ekko’s primary goal during Season 1?",
         answers: [
-          "A. Protect the people of Zaun",
+          "A. Protect and help the people of Zaun",
           "B. Destroy Silco’s Shimmer operations",
           "C. Avenge Vander’s death",
           "D. Rebuild the bridge between Piltover and Zaun",
@@ -1331,9 +1331,9 @@ document.addEventListener("DOMContentLoaded", () => {
         background: "media/ekkobg.jpg",
       },
       {
-        question: "What invention does Ekko carry with him during battles?",
+        question: "What weapon does Ekko carry with him during battles?",
         answers: [
-          "A. A Hextech timepiece",
+          "A. A Hextech bomb",
           "B. A reinforced bat",
           "C. A shimmer blade",
           "D. A grappling hook",
@@ -1365,7 +1365,7 @@ document.addEventListener("DOMContentLoaded", () => {
         background: "media/ekkobg.jpg",
       },
       {
-        question: "Who becomes Ekko’s primary adversary in Season 2?",
+        question: "Who eventually becomes Ekko’s primary adversary?",
         answers: ["A. Silco", "B. Jinx", "C. Marcus", "D. Sevika"],
         correct: 1,
         background: "media/ekkobg.jpg",
@@ -1406,7 +1406,8 @@ document.addEventListener("DOMContentLoaded", () => {
         background: "media/ekkobg.jpg",
       },
       {
-        question: "How does Ekko defeat Jinx in their rooftop fight?",
+        question:
+          "How does Ekko counter Jinx's attacks during their fight on the bridge?",
         answers: [
           "A. By using his reinforced bat",
           "B. By dodging her attacks and outmaneuvering her",
@@ -1462,14 +1463,15 @@ document.addEventListener("DOMContentLoaded", () => {
         background: "media/ekkobg.jpg",
       },
       {
-        question: "Who helps Ekko maintain the Firelights’ technology?",
+        question:
+          "Who helped Ekko create his Z-Drive technology in another timeline?",
         answers: [
-          "A. Viktor",
-          "B. Caitlyn",
-          "C. Heimerdinger",
-          "D. A group of Zaunite engineers",
+          "A. Viktor and Jayce",
+          "B. Caitlyn and Vi",
+          "C. Heimerdinger and Powder",
+          "D. Claggor and Mylo",
         ],
-        correct: 3,
+        correct: 2,
         background: "media/ekkobg.jpg",
       },
       {
@@ -1519,8 +1521,8 @@ document.addEventListener("DOMContentLoaded", () => {
         background: "media/caitlynbg.jpg",
       },
       {
-        question: "What is Caitlyn’s nickname in the enforcers?",
-        answers: ["A. Cupcake", "B. Ace Shot", "C. Sheriff", "D. Hexsniper"],
+        question: "What does Ambessa call Caitlyn majority of the time?",
+        answers: ["A. Cupcake", "B. Child", "C. Sheriff", "D. Hexsniper"],
         correct: 1,
         background: "media/caitlynbg.jpg",
       },
@@ -1606,16 +1608,16 @@ document.addEventListener("DOMContentLoaded", () => {
         question: "How does Caitlyn gain Vi’s trust?",
         answers: [
           "A. By standing up to Marcus",
-          "B. By saving Vi from Silco’s men",
+          "B. By saving Vi from Sevika",
           "C. By helping Vi track down Jinx",
           "D. By sharing her own struggles with Piltover’s system",
         ],
-        correct: 2,
+        correct: 1,
         background: "media/caitlynbg.jpg",
       },
       {
         question:
-          "What nickname does Jinx give Caitlyn during their confrontation?",
+          "What nickname does Jinx call Caitlyn during their confrontation?",
         answers: [
           "A. Sheriff",
           "B. Miss Perfect",
@@ -1626,7 +1628,7 @@ document.addEventListener("DOMContentLoaded", () => {
         background: "media/caitlynbg.jpg",
       },
       {
-        question: "What is Caitlyn’s primary motivation in Season 2?",
+        question: "What has been Caitlyn’s primary motivation?",
         answers: [
           "A. To restore peace between Piltover and Zaun",
           "B. To protect Hextech from falling into the wrong hands",
@@ -1694,7 +1696,7 @@ document.addEventListener("DOMContentLoaded", () => {
         background: "media/caitlynbg.jpg",
       },
       {
-        question: "What is Caitlyn’s relationship with her family in Season 2?",
+        question: "What is Caitlyn’s relationship with her family in Season 1?",
         answers: [
           "A. Strained due to her decision to become an enforcer",
           "B. Supportive, as they fund her investigations",
@@ -1873,12 +1875,12 @@ document.addEventListener("DOMContentLoaded", () => {
       },
       {
         question:
-          "What is Ambessa’s view on Mel’s decision to exile her brother?",
+          "What is Mel's view on Ambessa's decision to banish her to Piltover?",
         answers: [
           "A. She respects the decision",
           "B. She believes it was cowardly",
           "C. She views it as a betrayal of their family",
-          "D. She admires Mel’s strength for doing it",
+          "D. She resented and feared her mother",
         ],
         correct: 3,
         background: "media/ambessabg.jpg",

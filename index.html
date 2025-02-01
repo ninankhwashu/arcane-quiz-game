@@ -29,24 +29,38 @@
       </div>
 
       <div id="traitor-card" class="card hidden">
-        <img src="media/maddie.jpg" alt="Traitor" width="316" height="484" />
+        <img src="media/maddibg.jpg" alt="Traitor" width="316" height="484" />
 
         <h1>Traitor!!!</h1>
         <button id="goodbye-btn">Goodbye</button>
       </div>
 
       <div id="choose-nation" class="card hidden">
-        <h1>Choose Your Character</h1>
+        <h1>Choose Your League</h1>
         <div class="nations">
-          <button class="character-btn" data-nation="Arcane">Arcane</button>
-          <button class="character-btn" data-nation="Viktor">Viktor</button>
-          <button class="character-btn" data-nation="Jinx">Jinx</button>
-          <button class="character-btn" data-nation="Vi">Vi</button>
-          <button class="character-btn" data-nation="Jayce">Jayce</button>
-          <button class="character-btn" data-nation="Mel">Mel</button>
-          <button class="character-btn" data-nation="Ekko">Ekko</button>
-          <button class="character-btn" data-nation="Caitlyn">Caitlyn</button>
-          <button class="character-btn" data-nation="Ambessa">Ambessa</button>
+          <button class="character-btn" data-nation="Arcane" id="arcane">
+            Arcane
+          </button>
+          <button class="character-btn" data-nation="Viktor" id="viktor">
+            Viktor
+          </button>
+          <button class="character-btn" data-nation="Jinx" id="jinx">
+            Jinx
+          </button>
+          <button class="character-btn" data-nation="Vi" id="vi">Vi</button>
+          <button class="character-btn" data-nation="Jayce" id="jayce">
+            Jayce
+          </button>
+          <button class="character-btn" data-nation="Mel" id="mel">Mel</button>
+          <button class="character-btn" data-nation="Ekko" id="ekko">
+            Ekko
+          </button>
+          <button class="character-btn" data-nation="Caitlyn" id="caitlyn">
+            Caitlyn
+          </button>
+          <button class="character-btn" data-nation="Ambessa" id="ambessa">
+            Ambessa
+          </button>
         </div>
       </div>
 
@@ -55,12 +69,14 @@
         <p>
           ◈ There are 20 questions to answer about this character, answer each
           question carefully.<br />
-          ◈ After answering a question, <strong>wait</strong> until the next
+          ◈ After answering a question, <strong>WAIT</strong> until the next
           question appears to answer the next question.<br />◈ You cannot skip
           or go back to previous questions.<br />◈ Make sure you have a strong
-          internet connect to avoid lagging.<br />
-          ◈ If you get an answer right, it will glow Blue like Powder.<br />◈ If
-          you get an answer wrong, it will glow Purple like Shimmer.<br />
+          internet connection to avoid lagging.<br />
+          ◈ If you get an answer right, it will glow
+          <strong id="blue">Blue like Powder</strong>.<br />◈ If you get an
+          answer wrong, it will glow
+          <strong id="purple">Purple like Shimmer</strong>.<br />
           ◈ The questions and answers are medium-hard, so please take your time
           before choosing an answer.<br />◈ You'll receive your score when you
           complete all 20 questions.<br />

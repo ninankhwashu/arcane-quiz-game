@@ -58,8 +58,7 @@ button {
 
 .card {
   background: linear-gradient(to bottom, #ba8a63, #000000);
-
-  opacity: 0.9;
+  opacity: 0.95;
   padding: 20px;
   border-radius: 10px;
   animation: fade-in 0.5s;
@@ -71,6 +70,17 @@ button {
 
 #instructions {
   line-height: 1.5;
+}
+
+strong {
+  color: #007bff;
+}
+
+#blue {
+  color: #007bff;
+}
+#purple {
+  color: #c61999;
 }
 
 .card-carousel {
@@ -134,6 +144,8 @@ button {
 
 .answers button:hover {
   background: #555555;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
 }
 
 @keyframes button-shake {
@@ -211,7 +223,9 @@ button {
 #start-quiz:hover,
 #new-game:hover,
 #view-scoreboard:hover {
-  background: #555555;
+  background: #ba8a63;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
 }
 
 #yes-btn:hover {
@@ -221,6 +235,57 @@ button {
 }
 #no-btn:hover {
   background-color: #c61999;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+#arcane:hover {
+  background-color: #ba8a63;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+#viktor:hover {
+  background-color: #e44d44;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+#jinx:hover {
+  background-color: #007bff;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+#vi:hover {
+  background-color: #c61999;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+#jayce:hover {
+  background-color: #04667a;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+#mel:hover {
+  background-color: #8b4513;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+#ekko:hover {
+  background-color: #d5dbdb;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+#caitlyn:hover {
+  background-color: #042c71;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+#ambessa:hover {
+  background-color: #60212e;
   transform: scale(1.1);
   transition: transform 0.3s ease;
 }
@@ -269,15 +334,18 @@ button {
 }
 
 #scoreboard-popup {
+  width: 500px;
+  height: 300px;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: rgba(0, 0, 0, 0.9);
+  background: #000000;
+  opacity: 0.95;
   color: white;
   padding: 20px;
   border-radius: 10px;
-  z-index: 1001;
+  z-index: 1000;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -299,20 +367,32 @@ button {
 
 #scoreboard-list li {
   margin: 5px 0;
+  width: 90%;
+  max-width: 200px;
+  padding: 10px;
+  background: #333333;
+  color: white;
+  border: 2px solid #ba8a63;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 18px;
 }
 
 #close-scoreboard {
   margin-top: 15px;
-  padding: 5px 10px;
+  padding: 10px 15px;
   background: #333333;
   color: white;
-  border: 1px solid white;
+  border: 1px solid #c61999;
   border-radius: 5px;
   cursor: pointer;
 }
 
 #close-scoreboard:hover {
   background: #555555;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
 }
 
 #traitor-card {
@@ -336,10 +416,10 @@ button {
   padding: 10px 20px;
   margin-top: 10px;
   background: #333333;
-  border: 2px solid white;
+  border: 2px solid #ba8a63;
   color: white;
   cursor: pointer;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 #goodbye-btn:hover {
   background: #c61999;
